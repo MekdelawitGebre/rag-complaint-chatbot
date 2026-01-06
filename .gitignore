@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.parquet
+vector_store/
+data/processed/
+.ipynb_checkpoints/
