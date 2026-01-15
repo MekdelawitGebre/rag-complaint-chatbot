@@ -43,4 +43,4 @@ Thumbs.db
 *.sqlite3
 
 vector_store/index.faiss
-vector_store/index.pkl
+vector_store/index.pklvector_store/index.faiss
