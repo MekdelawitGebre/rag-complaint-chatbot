@@ -1,8 +1,46 @@
-venv/
+# Python
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
-*.pkl
-*.parquet
-vector_store/
-data/processed/
+*.pdb
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+venv1/
+
+# Jupyter Notebook
 .ipynb_checkpoints/
+
+# Data
+data/
+data/*.csv
+
+# Models / Artifacts
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Others
+*.sqlite3
+
+vector_store/index.faiss
+vector_store/index.pklvector_store/index.faiss
